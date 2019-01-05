@@ -10,6 +10,7 @@ matplotlib = "*"
 numpy = "*"
 xlrd = "*"
 seaborn = "*"
+bleach = "==2.1.4"
 
 [dev-packages]
 
