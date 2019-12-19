@@ -1,0 +1,49 @@
+/* title of columns */
+table.dataframe thead th {
+    font-size: 1.2em !important;
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
+/* title of rows */
+table.dataframe tbody th {
+    font-size: 1.2em !important;
+    background: rgba(199, 199, 199, 0.356) !important;
+    border: 1px solid black !important;
+}
+
+/* style for each cell */
+table.dataframe td {
+    font-size: 1.15em !important;
+    border: 1px solid black !important;
+}
+
+/* disable zebra-style */
+table.dataframe tbody tr {
+    background: white !important;
+}
+
+/* row color on hover */
+table.dataframe tbody tr:hover {
+    background: rgba(43, 137, 226, 0.144) !important;
+}
+
+/* Settings for slides */
+
+.present table.dataframe thead th {
+    font-size: 1.5em !important;
+}
+
+.present table.dataframe tbody th {
+    font-size: 1.5em !important;
+}
+
+.present table.dataframe td {
+    font-size: 1.3em !important;
+}
+
+.present table.dataframe thead th {
+    border-bottom: none !important;
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
